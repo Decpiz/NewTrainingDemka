@@ -103,6 +103,12 @@
     <Compile Include="Windows\WindowCheckRole.xaml.cs">
       <DependentUpon>WindowCheckRole.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\WindowCommentsList.xaml.cs">
+      <DependentUpon>WindowCommentsList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\WindowMasterProfile.xaml.cs">
+      <DependentUpon>WindowMasterProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\WindowRegisterApplication.xaml.cs">
       <DependentUpon>WindowRegisterApplication.xaml</DependentUpon>
     </Compile>
@@ -129,6 +135,14 @@
       <DependentUpon>WindowAuthorization.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\WindowCommentsList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\WindowMasterProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\WindowRegisterApplication.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -46,7 +46,7 @@ namespace NewTraining
                 else if (db.Roles.Where(r => r.Title == "Мастер")
                     .FirstOrDefault().RoleID == curUser.RoleID)
                 {
-                    WindowCheckRole window = new WindowCheckRole("Мастер");
+                    WindowMasterProfile window = new WindowMasterProfile(curUser);
                     window.Show();
                     this.Close();
                 }
